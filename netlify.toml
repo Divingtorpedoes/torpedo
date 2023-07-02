@@ -1,0 +1,18 @@
+
+## This rule redirects to an external API, signing requests with a secret
+
+[[redirects]]
+  from = "/youdao/*"
+  to = "https://fanyi.youdao.com/:splat"
+  status = 200
+  force = false
+
+
+[[redirects]]
+  from = "/alphacodersUrl/*"
+  to = "https://wall.alphacoders.com/:splat"
+  status = 200
+  force = false
+
+
+

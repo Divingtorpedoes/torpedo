@@ -1,12 +1,17 @@
 <template>
-
+  <div class="box">
     <Layout></Layout>
-
+  </div>
 </template>
 
 <script setup>
-  import Layout from './views/layout/index.vue'
-
+import Layout from './views/layout/index.vue';
 </script>
 
-<style lang="scss" scoped></style>
+<style  scoped>
+  .box{
+    width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+  }
+</style>
