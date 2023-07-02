@@ -15,7 +15,7 @@ import { RouterView } from 'vue-router';
 .contain{
   width: 100%;
   height: calc(100% - 60px);
-  background-color: aquamarine;
+ 
   padding: 20px 0;
 }
 </style>
