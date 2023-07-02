@@ -18,7 +18,7 @@ onMounted(() => {
   getNewImage();
 });
 let getNewImage = () => {
-  let url = `https://wall.alphacoders.com/api2.0/get.php?auth=1a1e07617b922b49f1f1efb53cf1326f&method=random&width=1920&height=1080&page=10&info_level=2&page=10`;
+  let url = `https://wall.alphacoders.com/api2.0/get.php?auth=1a1e07617b922b49f1f1efb53cf1326f&method=newest&width=1920&height=1080&page=10&info_level=2&page=10`;
   axios
     .get(url, {
       headers: {
