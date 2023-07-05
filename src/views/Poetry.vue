@@ -37,10 +37,12 @@ let getNewImage = () => {
 <style scoped>
 @font-face {
 	font-family: 'HYk2gj';
-	src: url('../../../public/JXZhuoKai.woff');
+	src: url('/public/JXZhuoKai.woff');
 }
 .poe-box {
 	font-family: 'HYk2gj';
+    max-height: 700px;
+    overflow-y: auto;
 }
 .poe-title,
 .poe-content {
