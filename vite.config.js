@@ -13,7 +13,7 @@ export default defineConfig({
     proxy: {
       '/apis': {
         //代理地址
-        target: 'http://119yb.cc', //测试环境
+        target: 'http://119yb.cc', //测试环境1
         changeOrigin: true, //是否跨域run
         ws: true,
         pathRewrite: {
